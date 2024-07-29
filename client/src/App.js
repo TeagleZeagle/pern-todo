@@ -1,10 +1,19 @@
 import './App.css';
 
+//components
+
+import InputTodo from "./components/inputTodo";
+import ListTodos from "./components/ListTodos";
+
 function App() {
-  return (
-      <>
-      </>
-  );
+    return (
+        <>
+            <div className="container">
+                <InputTodo />
+                <ListTodos />
+            </div>
+        </>
+    );
 }
 
 export default App;
